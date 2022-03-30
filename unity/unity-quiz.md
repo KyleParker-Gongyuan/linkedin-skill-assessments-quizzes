@@ -479,6 +479,42 @@ public class Health : MonoBehaviour
     }
 }
 ```
-
 `get` and `set` are the clear indicators that a C# property is being used.
 [Reference](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
+
+#### Q48. What is the LateUpdate function especially useful for?
+
+- [x] updating camera that tracks moving targers
+- [ ] performing comlpex arithmentical operations
+- [ ] counter-animating overstepped objects
+- [ ] applying physical forces to rigidbodies
+
+#### Q49 What is an ideal collider?
+
+- [ ] concave
+- [ ] cpmposite
+- [ ] convex
+- [ ] small
+
+#### Q50 when is the Rest method of MonoBehaviour invoked automatically?
+
+- [ ] when a scene begins or is restarted
+- [ ] when adding a component to an object or resetting its values in Edit mode
+- [ ] when a game object moves from one scene into another
+- [ ] when the scene begins or restarts for a deactivated game object
+
+
+#### Q51 Which C# code fragment continuously updates an object's yaw (Y rotation)?
+
+- [ ] transform.SetParent(null);
+- [ ] transform.Rotate(Vector.right, RotSpeed * Time.deltaTime);
+- [ ] transform.RotatAround(Vector3.up, RotSpeed * Time.deltaTime);
+- [ ] transform.localRotate *= Quaternion.Euler(0f, rotSpeed * Time.deltaTime, 0f);
+
+#### Q52 Which C# attribute allows a class and its methods to run inside the editor during Eidt mode?
+
+- [ ] [Live]
+- [ ] [ExecuteAlways]
+- [ ] [Range(0,10)]
+- [ ] [RunInEditor]
+
