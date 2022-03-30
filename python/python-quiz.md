@@ -1727,3 +1727,39 @@ Hello, I am from Spain
 Hello, I am from France
 Hello, I am from France
 ```
+
+[Reference](Referance needed)
+#### Q127. assume m, b and are poisitive intergers, In the following comprehension, how many times will the function randint will be called?
+```python
+[ [ [randint(1,100) for i in range(m)] for j in range(n) ] for k in range(p) ]
+```
+
+- [ ] m * n * p
+- [ ] the Greater value of(m, n, p)
+- [ ] 1 million
+- [ ] m + n + p
+
+[Reference](Referance needed)
+#### Q128. It is often the case that pandas library is used for __ data and NumPy __ data.
+
+- [ ] unstructured; structed
+- [ ] numerical; tabular
+- [ ] tablular; numerical
+- [ ] string; numerical
+
+#### Q129. What will happen when you execute this code snippet?
+```python
+#include <iostream>
+
+int main()
+{
+    float a = 5.51;
+    int b = static_cast<int>(a);
+    std::count << b;
+}
+```
+
+- [ ] 6 will be printed on stadard output, with compilation warnings generated.
+- [ ] 6 will be printed on stadard output, with no compilation warnings generated.
+- [ ] 5 will be printed on stadard output, with compilation warnings generated.
+- [ ] 5 will be printed on stadard output, with no compilation warnings generated.
